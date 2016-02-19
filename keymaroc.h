@@ -1,4 +1,4 @@
-#ifndef _KEYMAROC_
+﻿#ifndef _KEYMAROC_
 #define _KEYMAROC_
 
 #define UP       72

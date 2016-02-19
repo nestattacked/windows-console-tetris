@@ -1,4 +1,4 @@
-#ifndef _MODECHOOSER_
+﻿#ifndef _MODECHOOSER_
 #define _MODECHOOSER_
 
 class ModeChooser{

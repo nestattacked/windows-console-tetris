@@ -1,4 +1,4 @@
-#include"game.h"
+ï»¿#include"game.h"
 #include"util.h"
 #include"modechooser.h"
 #include"keymaroc.h"
@@ -55,29 +55,29 @@ Game::Game(){
     mode_number = ModeChooser::getMode();
 
     //draw game's UI
-    cout<<"©³©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©·©³©¥©¥©¥©¥©·"<<endl;
-    cout<<"©§                        ©§©§ÏÂÒ»·½¿é©§"<<endl;
-    cout<<"©§                        ©§©Ç©¥©¥©¥©¥©Ï"<<endl;
-    cout<<"©§                        ©§©§        ©§"<<endl;
-    cout<<"©§                        ©§©§        ©§"<<endl;
-    cout<<"©§                        ©§©§        ©§"<<endl;
-    cout<<"©§                        ©§©§        ©§"<<endl;
-    cout<<"©§                        ©§©»©¥©¥©¥©¥©¿"<<endl;
-    cout<<"©§                        ©§©³©¥©¥©¥©¥©·"<<endl;
-    cout<<"©§                        ©§©§  ÄÑ¶È  ©§"<<endl;
-    cout<<"©§                        ©§©Ç©¥©¥©¥©¥©Ï"<<endl;
-    cout<<"©§                        ©§©§        ©§"<<endl;
-    cout<<"©§                        ©§©Ç©¥©¥©¥©¥©Ï"<<endl;
-    cout<<"©§                        ©§©§  ·ÖÊý  ©§"<<endl;
-    cout<<"©§                        ©§©Ç©¥©¥©¥©¥©Ï"<<endl;
-    cout<<"©§                        ©§©§        ©§"<<endl;
-    cout<<"©§                        ©§©Ç©¥©¥©¥©¥©Ï"<<endl;
-    cout<<"©§                        ©§©§  ÏûÏ¢  ©§"<<endl;
-    cout<<"©§                        ©§©Ç©¥©¥©¥©¥©Ï"<<endl;
-    cout<<"©§                        ©§©§        ©§"<<endl;
-    cout<<"©§                        ©§©§        ©§"<<endl;
-    cout<<"©§                        ©§©§        ©§"<<endl;
-    cout<<"©»©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¿©»©¥©¥©¥©¥©¿"<<endl;
+    cout<<"â”â”â”â”â”â”â”â”â”â”â”â”â”â”“â”â”â”â”â”â”“"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒä¸‹ä¸€æ–¹å—â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”£â”â”â”â”â”«"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ        â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ        â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ        â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ        â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”—â”â”â”â”â”›"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”â”â”â”â”â”“"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ  éš¾åº¦  â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”£â”â”â”â”â”«"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ        â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”£â”â”â”â”â”«"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ  åˆ†æ•°  â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”£â”â”â”â”â”«"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ        â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”£â”â”â”â”â”«"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ  æ¶ˆæ¯  â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”£â”â”â”â”â”«"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ        â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ        â”ƒ"<<endl;
+    cout<<"â”ƒ                        â”ƒâ”ƒ        â”ƒ"<<endl;
+    cout<<"â”—â”â”â”â”â”â”â”â”â”â”â”â”â”›â”—â”â”â”â”â”›"<<endl;
 
     //init data
     for(int i=0;i<12;i++)
@@ -180,13 +180,13 @@ void Game::showMode(){
     switch(mode_number)
 	{
 	case 1:
-		cout<<"Õý³£Ä£Ê½";
+		cout<<"æ­£å¸¸æ¨¡å¼";
 		break;
 	case 2:
-		cout<<"²Ð¾ÖÄ£Ê½";
+		cout<<"æ®‹å±€æ¨¡å¼";
 		break;
 	case 3:
-		cout<<"ËÀÍöÄ£Ê½";
+		cout<<"æ­»äº¡æ¨¡å¼";
 		break;
 	default:
 		break;
@@ -200,7 +200,7 @@ void Game::showNextBlock(){
     }
     for(int i=0;i<4;i++){
         Util::go(blocks[next_block_type][2*i]+30,blocks[next_block_type][2*i+1]+3);
-        cout<<"¡ö";
+        cout<<"â– ";
     }
 }
 
@@ -214,7 +214,7 @@ void Game::wipeRunningBlock(){
 void Game::showRunningBlock(){
     for(int i=0;i<4;i++){
         Util::go(blocks[block_type][2*i]+2*block_positionx,blocks[block_type][2*i+1]+block_positiony);
-        cout<<"¡ö";
+        cout<<"â– ";
     }
 }
 
@@ -227,7 +227,7 @@ void Game::showMain(){
             cout<<"  ";
             if(space[i][j]==1){
                 Util::go(2*j+2,i+1);
-                cout<<"¡ö";
+                cout<<"â– ";
             }
         }
     }
@@ -287,11 +287,11 @@ void Game::clearBlock(){
     alive = 1;
     if(blockExist()){
         Util::go(30,19);
-        cout<<"  Ê§°Ü  ";
+        cout<<"  å¤±è´¥  ";
         Util::go(30,20);
-        cout<<"°´ESC¼ü";
+        cout<<"æŒ‰ESCé”®";
         Util::go(30,21);
-        cout<<"ÍË³öÓÎÏ·";
+        cout<<"é€€å‡ºæ¸¸æˆ";
         while(1)
         {
             if(getch()==ESC)
@@ -396,11 +396,11 @@ void Game::boom(){
 		if(level==11)
         {
             Util::go(30,19);
-            cout<<"  Í¨¹Ø  ";
+            cout<<"  é€šå…³  ";
             Util::go(30,20);
-            cout<<"°´ESC¼ü";
+            cout<<"æŒ‰ESCé”®";
             Util::go(30,21);
-            cout<<"ÍË³öÓÎÏ·";
+            cout<<"é€€å‡ºæ¸¸æˆ";
             while(1)
             {
                 if(getch()==ESC)

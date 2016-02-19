@@ -1,4 +1,4 @@
-#include"modechooser.h"
+ï»¿#include"modechooser.h"
 #include"util.h"
 #include"keymaroc.h"
 #include<iostream>
@@ -10,32 +10,32 @@ using namespace std;
 int ModeChooser::getMode(){
     //draw chooser UI
     system("cls");
-    cout<<"©³©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©·"<<endl;
-	cout<<"©§       ¶íÂÞË¹·½¿é       ©§"<<endl;
-	cout<<"©§                        ©§"<<endl;
-	cout<<"©§            ÆÕÍ¨        ©§"<<endl;
-	cout<<"©§            ²Ð¾Ö        ©§"<<endl;
-	cout<<"©§            ËÀÍö        ©§"<<endl;
-	cout<<"©Ä©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©Ï"<<endl;
-	cout<<"©§    ¡ü ¡ý Ñ¡ÔñÄ£Ê½      ©§"<<endl;
-	cout<<"©§                        ©§"<<endl;
-	cout<<"©§       ¿Õ¸ñ¼üÈ·ÈÏ       ©§"<<endl;
-	cout<<"©Ä©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©Ï"<<endl;
-	cout<<"©§       ÓÎÏ·²Ù×÷         ©§"<<endl;
-	cout<<"©§  ¡ü           ±ä»»     ©§"<<endl;
-	cout<<"©§  ¡û¡ý¡ú       ÒÆ¶¯     ©§"<<endl;
-	cout<<"©§  space        ¿ìËÙÏÂÂä ©§"<<endl;
-	cout<<"©§£¨ÓÎÏ·ÐÅÏ¢ÏÔÊ¾ÔÚÓÒÏÂ½Ç£©©§"<<endl;
-	cout<<"©Ä©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©Ï"<<endl;
-	cout<<"©§  code by nestattacked  ©§"<<endl;
-	cout<<"©§  qq:283349242          ©§"<<endl;
-	cout<<"©»©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¿"<<endl;
+    cout<<"â”â”â”â”â”â”â”â”â”â”â”â”â”â”“"<<endl;
+	cout<<"â”ƒ       ä¿„ç½—æ–¯æ–¹å—       â”ƒ"<<endl;
+	cout<<"â”ƒ                        â”ƒ"<<endl;
+	cout<<"â”ƒ            æ™®é€š        â”ƒ"<<endl;
+	cout<<"â”ƒ            æ®‹å±€        â”ƒ"<<endl;
+	cout<<"â”ƒ            æ­»äº¡        â”ƒ"<<endl;
+	cout<<"â” â”â”â”â”â”â”â”â”â”â”â”â”â”«"<<endl;
+	cout<<"â”ƒ    â†‘ â†“ é€‰æ‹©æ¨¡å¼      â”ƒ"<<endl;
+	cout<<"â”ƒ                        â”ƒ"<<endl;
+	cout<<"â”ƒ       ç©ºæ ¼é”®ç¡®è®¤       â”ƒ"<<endl;
+	cout<<"â” â”â”â”â”â”â”â”â”â”â”â”â”â”«"<<endl;
+	cout<<"â”ƒ       æ¸¸æˆæ“ä½œ         â”ƒ"<<endl;
+	cout<<"â”ƒ  â†‘           å˜æ¢     â”ƒ"<<endl;
+	cout<<"â”ƒ  â†â†“â†’       ç§»åŠ¨     â”ƒ"<<endl;
+	cout<<"â”ƒ  space        å¿«é€Ÿä¸‹è½ â”ƒ"<<endl;
+	cout<<"â”ƒï¼ˆæ¸¸æˆä¿¡æ¯æ˜¾ç¤ºåœ¨å³ä¸‹è§’ï¼‰â”ƒ"<<endl;
+	cout<<"â” â”â”â”â”â”â”â”â”â”â”â”â”â”«"<<endl;
+	cout<<"â”ƒ  code by nestattacked  â”ƒ"<<endl;
+	cout<<"â”ƒ  qq:283349242          â”ƒ"<<endl;
+	cout<<"â”—â”â”â”â”â”â”â”â”â”â”â”â”â”›"<<endl;
 
 	//print choose arrow
 	int positionx = 9, positiony = 3;
 	Util::go(positionx,positiony);
 	Util::color(0xf0);
-	cout<<"¡ú";
+	cout<<"â†’";
 
 	//wait for user's operation
 	while(1){
@@ -60,7 +60,7 @@ int ModeChooser::getMode(){
             break;
 	    }
 	    Util::go(positionx,positiony);
-	    cout<<"¡ú";
+	    cout<<"â†’";
 	}
 
 }
